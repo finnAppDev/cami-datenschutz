@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Datenschutzerklärung – Camí</title>
+<meta name="robots" content="index, follow">
+<!-- ERZEUGT aus docs/datenschutz.md durch tool/datenschutz_seite.py.
+     Nicht von Hand aendern -- Aenderungen gehen beim naechsten Lauf verloren.
+     Geaendert wird zuerst lib/ui/app_text*.dart (die Quelle), dann die
+     Markdown-Datei, dann dieses Werkzeug laufen lassen. -->
+<style>
+:root {
+  --grund: #fffdfb; --text: #241c18; --leise: #6f5c54;
+  --linie: #e3d9d1; --akzent: #b04a26; --kasten: #f5efe9;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --grund: #17120f; --text: #f0e8e2; --leise: #b09a8e;
+    --linie: #3a2e27; --akzent: #e8825a; --kasten: #221b17;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--grund); color: var(--text);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-size: 17px; line-height: 1.6;
+  -webkit-text-size-adjust: 100%;
+}
+main { max-width: 38rem; margin: 0 auto; padding-inline: 20px; padding-block: 40px 64px; }
+h1 { font-size: 1.9rem; line-height: 1.15; margin: 0 0 6px; text-wrap: balance; }
+h2 {
+  font-size: 1.12rem; margin: 36px 0 10px; padding-top: 16px;
+  border-top: 1px solid var(--linie); text-wrap: balance;
+}
+.stand { color: var(--leise); font-size: 0.92rem; margin: 0 0 32px; }
+.kurz {
+  background: var(--kasten); border-left: 3px solid var(--akzent);
+  padding: 16px 18px; border-radius: 0 4px 4px 0; margin: 0 0 8px;
+}
+.kurz h2 { margin: 0 0 8px; padding: 0; border: 0; font-size: 0.78rem;
+  letter-spacing: 0.1em; text-transform: uppercase; color: var(--akzent); }
+.kurz p:last-child { margin-bottom: 0; }
+p { margin: 0 0 14px; }
+ul { margin: 0 0 14px; padding-left: 1.2em; }
+li { margin-bottom: 8px; }
+address { font-style: normal; white-space: pre-line; margin: 0 0 14px; }
+code { font-family: ui-monospace, "SFMono-Regular", Menlo, monospace;
+  font-size: 0.88em; background: var(--kasten); padding: 1px 5px; border-radius: 3px;
+  word-break: break-word; }
+a { color: var(--akzent); }
+footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--linie);
+  color: var(--leise); font-size: 0.88rem; }
+</style>
+</head>
+<body>
+<main>
+<h1>Datenschutzerklärung</h1>
+<p class="stand">Camí · Stand: 17. September 2026</p>
+<div class="kurz">
+<h2>Kurz gesagt</h2>
+<p>Camí sammelt nichts über dich. Es gibt kein Konto, keine Werbung und keine Statistik. Für die Ausspracheübungen darf die App das Mikrofon benutzen — die Aufnahme wird auf deinem Gerät ausgewertet und verlässt es nicht (siehe „Beim Sprechen"). Ins Internet geht Camí nur, wenn du selbst ein <strong>Sprachpaket für die Ausspracheübungen oder eine von Camís eigenen Stimmen</strong> herunterlädst; sonst ruft die App nie etwas ab.</p>
+</div>
+<h2>Verantwortlich</h2>
+<address>Finn Cardona Santafé<br>
+Pfaffenstraße 22<br>
+23552 Lübeck<br>
+Deutschland<br>
+E-Mail: appentwicklung@mein.gmx</address>
+<h2>Was gespeichert wird</h2>
+<p>Dein Lernstand, deine Ziele und die Einstellungen liegen im Speicher der App auf deinem Gerät. Dazu gehören: erledigte Lektionen, der Tag, an dem du eine Etappe abgeschlossen hast, gesammelte Belohnungen, die Fächer deiner Karteikarten, Tages- und Wochenziel, gesammelte Punkte, deine Serie, die gewählte Lern- und Erklärsprache sowie die Anzeige-Einstellungen.</p>
+<p>Mehr braucht Camí nicht. Es wird kein Name, keine E-Mail-Adresse, keine Gerätekennung und kein Standort erhoben.</p>
+<h2>Was das Gerät verlässt</h2>
+<p>Keine deiner Daten. Kurse, Bilder und Karten sind in der App enthalten, dein Lernstand bleibt auf dem Gerät, und es wird nichts über dich übertragen.</p>
+<p>Die einzige Netzverbindung, die Camí überhaupt herstellt, ist der <strong>Download eines Sprachpakets</strong> für die Ausspracheübungen <strong>oder einer von Camís eigenen Stimmen</strong> zum Vorlesen, und auch der nur, wenn du ihn selbst auswählst. Dabei wird eine Datei von einem öffentlichen Server geladen (<code>alphacephei.com</code>, die Herausgeber der Erkennungssoftware Vosk, bzw. <code>github.com</code>, wo die Piper-Stimmen liegen). Gesendet wird dabei nur, was jeder Download sendet: die Adresse der Datei und, technisch unvermeidbar, deine IP-Adresse an diesen Server. <strong>Es wird nichts über dich, deinen Lernstand oder deine Aufnahmen mitgeschickt.</strong> Lädst du kein Sprachpaket herunter, stellt Camí nie eine Verbindung her.</p>
+<p>Damit gibt es keine Weitergabe an Dritte, keine Auftragsverarbeiter, keine Werbenetzwerke und keine Analysedienste.</p>
+<h2>Beim Vorlesen</h2>
+<p>Wenn du dir ein Wort oder einen Satz vorlesen lässt, wird dieser Text an die Sprachausgabe deines Geräts übergeben — dieselbe Funktion, die auch andere Apps deines Telefons nutzen. Camí verwendet dafür ausschließlich Stimmen, die ohne Netzverbindung arbeiten. Der Text verlässt dein Gerät also nicht.</p>
+<p>Welche Sprachausgabe dein Gerät benutzt und wie sie mit den an sie übergebenen Texten umgeht, bestimmt der Hersteller dieser Sprachausgabe (zum Beispiel Google oder Samsung); dafür gelten deren Bestimmungen.</p>
+<h2>Beim Sprechen</h2>
+<p>In den Ausspracheübungen hört das Mikrofon zu, solange du sprichst. Erkannt wird <strong>ausschließlich auf dem Gerät selbst</strong> — die Aufnahme wird sofort ausgewertet, nirgends gespeichert und nicht gesendet. Das gilt für beide Wege, die Camí anbietet:</p>
+<ul>
+<li>die Spracherkennung <strong>deines Betriebssystems</strong>, und zwar nur in deren Modus „auf dem Gerät". Kann dein Gerät das nicht, bietet Camí die Bewertung gar nicht erst an;</li>
+<li>das <strong>Sprachpaket, das du selbst herunterlädst</strong> (Vosk). Es liegt danach auf deinem Gerät und arbeitet ohne Netz. Der Download selbst ist die einzige Netzverbindung (siehe „Was das Gerät verlässt"). Dasselbe gilt für <strong>Camís eigene Stimmen</strong> (Piper): geladen auf Wunsch, danach rechnet die Stimme nur auf deinem Gerät.</li>
+</ul>
+<p>Ist keiner der beiden Wege verfügbar oder willst du keinen, wird die Übung zu einer, in der du nachsprichst, ohne dass etwas geprüft wird — der Kurs bleibt vollständig.</p>
+<p>Die Erkennung deines Betriebssystems ist eine Funktion des Herstellers, keine eigene von Camí; dafür gelten dessen Bestimmungen.</p>
+<p>Du wirst gefragt, <strong>bevor</strong> die Berechtigung angefordert wird, und kannst ablehnen. Auch danach lassen sich die Ausspracheübungen jederzeit abschalten — vorübergehend oder dauerhaft (Einstellungen → Aussprache). In allen diesen Fällen bleibt der Kurs vollständig; es entfällt nur die Bewertung.</p>
+<h2>Sicherung</h2>
+<p>Android kann die Daten installierter Apps in die Gerätesicherung deines Google-Kontos aufnehmen. Ob das geschieht, ist eine Einstellung deines Telefons, nicht der App. Für diese Sicherung gelten die Datenschutzbestimmungen von Google.</p>
+<p>Unabhängig davon kannst du deinen Lernstand in der App selbst als Datei exportieren (Einstellungen → Lernstand → Fortschritt exportieren) und sie dort ablegen, wo du möchtest. Was mit dieser Datei geschieht, entscheidest allein du.</p>
+<h2>Löschen</h2>
+<p>In der App: Einstellungen → Lernstand → Zurücksetzen, wahlweise für einzelne Sprachen. Wer die App deinstalliert, löscht alle ihre Daten mit — Camí bewahrt nichts an anderer Stelle auf.</p>
+<h2>Deine Rechte</h2>
+<p>Camí legt über dich keine Daten an: kein Konto, kein Profil, keine Kennung. Was auf deinem Gerät liegt, gehört dir und ist von dort aus jederzeit einsehbar und löschbar (siehe „Was gespeichert wird" und „Löschen").</p>
+<p>Lädst du ein Sprachpaket oder eine Stimme herunter, erfährt der Server dabei deine IP-Adresse — ohne sie funktioniert kein Download im Internet. Diese Angabe fällt beim Betreiber des Servers an, nicht bei uns; wir erhalten sie nie und können sie deshalb weder zuordnen noch auswerten. Lädst du nichts herunter, entsteht auch das nicht.</p>
+<p>Da bei uns damit keine Daten über dich vorliegen, gibt es nichts, worüber Auskunft erteilt, was berichtigt oder gelöscht werden könnte. Fragen dazu beantworten wir trotzdem gern unter der oben genannten Adresse.</p>
+<h2>Änderungen</h2>
+<p>Ändert sich etwas am Umgang mit Daten, wird diese Seite angepasst und das Datum oben aktualisiert.</p>
+<footer>Camí – Sprachenlernen als Reise. Diese Seite lädt nichts von
+fremden Servern nach.</footer>
+</main>
+</body>
+</html>
