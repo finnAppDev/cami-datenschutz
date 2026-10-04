@@ -5,7 +5,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Datenschutzerklärung – Camí</title>
 <meta name="robots" content="index, follow">
-<!-- ERZEUGT aus docs/datenschutz.md durch tool/datenschutz_seite.py.
+<link rel="alternate" hreflang="de" href="https://finnappdev.github.io/cami-datenschutz/">
+<link rel="alternate" hreflang="ca" href="https://finnappdev.github.io/cami-datenschutz/ca/">
+<link rel="alternate" hreflang="en" href="https://finnappdev.github.io/cami-datenschutz/en/">
+<link rel="alternate" hreflang="fr" href="https://finnappdev.github.io/cami-datenschutz/fr/">
+<link rel="alternate" hreflang="es" href="https://finnappdev.github.io/cami-datenschutz/es/">
+<link rel="alternate" hreflang="pl" href="https://finnappdev.github.io/cami-datenschutz/pl/">
+<!-- ERZEUGT aus docs/datenschutz*.md durch tool/datenschutz_seite.py.
      Nicht von Hand aendern -- Aenderungen gehen beim naechsten Lauf verloren.
      Geaendert wird zuerst lib/ui/app_text*.dart (die Quelle), dann die
      Markdown-Datei, dann dieses Werkzeug laufen lassen. -->
@@ -42,6 +48,12 @@ h3 { font-size: 1rem; margin: 24px 0 6px; }
 .kurz h2 { margin: 0 0 8px; padding: 0; border: 0; font-size: 0.78rem;
   letter-spacing: 0.1em; text-transform: uppercase; color: var(--akzent); }
 .kurz p:last-child { margin-bottom: 0; }
+.sprachen { margin: 0 0 20px; font-size: 0.92rem; color: var(--leise); }
+.sprachen a, .sprachen strong { margin-right: 12px; white-space: nowrap; }
+.sprachen strong { color: var(--text); }
+.banner { display: block; width: 100%; height: auto; border-radius: 6px;
+  margin: 0 0 28px; }
+.hinweis { color: var(--leise); font-size: 0.92rem; font-style: italic; }
 p { margin: 0 0 14px; }
 ul { margin: 0 0 14px; padding-left: 1.2em; }
 li { margin-bottom: 8px; }
@@ -56,6 +68,8 @@ footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--linie)
 </head>
 <body>
 <main>
+<nav class="sprachen"><strong>Deutsch</strong> <a href="ca/" hreflang="ca" lang="ca">Català</a> <a href="en/" hreflang="en" lang="en">English</a> <a href="fr/" hreflang="fr" lang="fr">Français</a> <a href="es/" hreflang="es" lang="es">Español</a> <a href="pl/" hreflang="pl" lang="pl">Polski</a></nav>
+<img class="banner" src="banner_de.png" width="1024" height="500" alt="Camí – Sprachen lernen als Reise">
 <h1>Datenschutzerklärung</h1>
 <p class="stand">Camí · Stand: 4. Oktober 2026</p>
 <div class="kurz">
@@ -124,8 +138,7 @@ E-Mail: appentwicklung@mein.gmx</address>
 <p><strong>Du hast außerdem das Recht, dich bei einer Datenschutz-Aufsichtsbehörde zu beschweren</strong> (Art. 77 DSGVO), etwa in deinem Land oder an deinem Wohnort. Für uns zuständig ist das Unabhängige Landeszentrum für Datenschutz Schleswig-Holstein, Holstenstraße 98, 24103 Kiel, www.datenschutzzentrum.de.</p>
 <h2>Änderungen</h2>
 <p>Ändert sich etwas am Umgang mit Daten, wird diese Seite angepasst und das Datum oben aktualisiert.</p>
-<footer>Camí – Sprachen lernen als Reise. Diese Seite lädt nichts von
-fremden Servern nach.</footer>
+<footer>Camí – Sprachen lernen als Reise. Diese Seite lädt nichts von fremden Servern nach.</footer>
 </main>
 </body>
 </html>
